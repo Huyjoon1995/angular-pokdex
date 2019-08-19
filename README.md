@@ -1,7 +1,7 @@
 # Pokedex
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
-&nbsp;
+<br>
 website link: (https://ng-pokedex-bd250.firebaseapp.com/)
 
 # Languages
