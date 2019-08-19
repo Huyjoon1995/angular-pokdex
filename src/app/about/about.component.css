@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+h5 {
+    text-align: center;
+}
+.card-text {
+    text-align: center;
+}
+.card-footer a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background: #262626;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+a .fa {
+    line-height: 36px;
+}
+.card-footer a:hover {
+    background: #e91e63;
+}
+.card-footer {
+    padding: 10px 0;
+    text-align: center;
+}
+.jumbotron {
+    text-align: center;
+}
+ul {
+    list-style:none;
+}

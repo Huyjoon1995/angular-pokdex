@@ -1,8 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
 body {
     background-color: #1E3263;
-}
-.loader {
+  }
+  
+  .loader {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -149,3 +149,29 @@ body {
     }
   }
   
+  /* Circle Rulers
+  .centerWrapper:before {
+    display: block;
+    content: '';
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centerWrapper:after {
+    display: block;
+    content: '';
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  */

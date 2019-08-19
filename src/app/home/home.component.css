@@ -1,0 +1,6 @@
+.card {
+    width: 100%;
+}
+h5, .card-text {
+    text-align: center;
+}

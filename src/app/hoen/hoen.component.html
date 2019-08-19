@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <input type="text" [(ngModel)] = "userInput" class="form-control" placeholder="Search Pokemon...">
+    <div class="row">
+        <div  *ngFor="let pokemonHoen of pokemonHoenArray| filter:userInput; let i = index" class="col-sm-2 card border-dark mt-3 ">
+            <a><img class="card-img-top" [src]= "pokemonHoen.sprite" [alt] = "pokemonHoen.name"></a>
+            <div class="card-block">
+                <h5>{{ pokemonHoen.name | uppercase}}<span>#{{ pokemonHoen.number }}</span></h5>
+                <hr>
+            </div>
+            <button class=" btn btn-danger" (click) = "open(i)">Info</button>
+        </div>
+    </div>
+</div>
+<br>
+<router-outlet></router-outlet>

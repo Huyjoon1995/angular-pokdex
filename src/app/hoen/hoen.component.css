@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant&display=swap');
+hr {
+    border: 1px solid black;
+}
+h5 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Cormorant', serif; 
+}
+span {
+    float: right;
+    font-size: 15px;
+    font-family: 'Cormorant', serif; 
+}

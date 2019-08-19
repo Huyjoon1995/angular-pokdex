@@ -1,0 +1,23 @@
+<div class="modal-header bg-danger">
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <img [src] = "pokeDetail.sprite" class="card-img-top" [alt]="pokeDetail.name">
+            </div>
+            <div class="col-sm-9">
+                <div class="card-body-right">
+                    <h3 class="card-title">{{ pokeDetail.name | single }}<span>#{{ pokeDetail.number }}</span></h3>
+                    <span *ngFor = "let type of pokeDetail.type" [ngClass] = "type"><b>{{ type }} </b> </span>
+                    <br>
+                    <span><b>Height: </b> {{ pokeDetail.height }} m <b>Weight: </b> {{ pokeDetail.weight }} kg</span>
+                    <p>{{ pokeDetail.description }}</p>             
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
